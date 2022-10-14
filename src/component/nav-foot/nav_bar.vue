@@ -8,10 +8,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link" href="https://www.youtube.com/embed/_5Tw_oI9kKg">Tutorial</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="https://www.iconfinder.com/search?q=home">Svg Icon</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -23,12 +26,12 @@
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li>
           </ul>
-        </li>
+        </li> -->
               </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-light" type="submit">Search</button>
-        <button class="btn btn-outline-light ms-2" type="submit" ><router-link style="text-decoration: none; color: inherit;" to="/about" >login</router-link></button>
+        <button class="btn btn-outline-light btn-lg ms-2" type="submit" ><router-link style="text-decoration: none; color: inherit;" to="/login" >Login</router-link></button>
       </form>
     </div>
   </div>
