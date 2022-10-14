@@ -28,9 +28,12 @@
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-light" type="submit">Search</button>
-        <button class="btn btn-outline-light ms-2" type="submit" ><router-link to="/about" >login</router-link></button>
+        <button class="btn btn-outline-light ms-2" type="submit" ><router-link style="text-decoration: none; color: inherit;" to="/about" >login</router-link></button>
       </form>
     </div>
   </div>
 </nav>
 </template>
+<style>
+
+</style>
