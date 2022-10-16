@@ -2,7 +2,10 @@
   <div class="accordion accordion-flush p-1" id="accordionFlushExample">
     <div class="accordion-item">
       <h2 class="accordion-header arrow">
-        <button class="accordion-button" type="button">Dashboard</button>
+        <button class="accordion-button" type="button">
+          <img src='../../assets/216242_home_icon.svg' id="listicon"/>
+        <span>Dashboard</span>
+        </button>
       </h2>
     </div>
     <!-- /**/1 Contacts*/ -->
@@ -16,7 +19,9 @@
           aria-expanded="false"
           aria-controls="flush-collapseOne"
         >
-          Contacts
+        <img src='../../assets/contacts-book.png' id="listicon"/>
+        <span>Contacts</span>
+          
         </button>
       </h2>
       <div
@@ -45,7 +50,8 @@
           aria-expanded="false"
           aria-controls="flush-collapsetwo"
         >
-       Email
+        <img src='../../assets/email.png' id="listicon"/>
+        <span>Email</span>
         </button>
       </h2>
       <div
@@ -74,7 +80,8 @@
           aria-expanded="false"
           aria-controls="flush-collapse3"
         >
-          Invoice 
+          <img src='../../assets/bill.png' id="listicon"/>
+        <span>Invoice </span>
         </button>
       </h2>
       <div
@@ -104,7 +111,9 @@
           aria-expanded="false"
           aria-controls="flush-collapse4"
         >
-          Starter Motor
+          
+            <img src='../../assets/starter.png' id="listicon"/>
+        <span>Starter Motor </span>
         </button>
       </h2>
       <div
@@ -135,7 +144,10 @@
           aria-expanded="false"
           aria-controls="flush-collapse6"
         >
-        Alternator
+       
+        
+            <img src='../../assets/Altenator.png' id="listicon"/>
+        <span> Alternator</span>
         </button>
       </h2>
       <div
@@ -145,9 +157,15 @@
         data-bs-parent="#accordionFlushExample"
       >
         <div class="accordion-body">
-          Placeholder content for this accordion, which is intended to
-          demonstrate the <code>.accordion-flush</code> class. This is the first
-          item's accordion body.
+          <ul class="" >
+            <li><a class="dropdown-item" href="#">Rotor</a></li>
+            <li><a class="dropdown-item" href="#">Stater</a></li>
+            <li><a class="dropdown-item" href="#">Diode Plate </a></li>
+            <li><a class="dropdown-item" href="#">Regulator</a></li>
+            <li><a class="dropdown-item" href="#">Pully</a></li>
+            <li><a class="dropdown-item" href="#">Body</a></li>
+            <li><a class="dropdown-item" href="#">Stater Ring</a></li>
+          </ul>
         </div>
       </div>
     </div>
@@ -162,7 +180,8 @@
           aria-expanded="false"
           aria-controls="flush-collapse5"
         >
-       Accessories
+        <img src='../../assets/Accessories.png' id="listicon"/>
+        <span>  Accessories</span>
         </button>
       </h2>
       <div
@@ -182,14 +201,73 @@
         </div>
       </div>
     </div>
-
+    <!-- //**Bearing */ -->
+     <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-heading7">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapse7"
+          aria-expanded="false"
+          aria-controls="flush-collapse7"
+        >
+               <img src='../../assets/ball-bearing .png' id="listicon"/>
+        <span>Bearing</span>
+        </button>
+      </h2>
+      <div
+        id="flush-collapse7"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-heading7"
+        data-bs-parent="#accordionFlushExample"
+      >
+      <div class="accordion-body">
+          <ul>
+            <li><a class="dropdown-item" href="#">Roller Bearing</a></li>
+            <li><a class="dropdown-item" href="#">Boll Bearing</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+<!-- //**Boushing */ -->
+     <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-heading8">
+        <button
+          class="accordion-button collapsed"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#flush-collapse8"
+          aria-expanded="false"
+          aria-controls="flush-collapse8"
+        >
+        <img src='../../assets/bushing.png' id="listicon"/>
+        <span>Bushing</span>
+        </button>
+      </h2>
+      <div
+        id="flush-collapse8"
+        class="accordion-collapse collapse"
+        aria-labelledby="flush-heading8"
+        data-bs-parent="#accordionFlushExample"
+      >
+      <div class="accordion-body">
+          <ul>
+            <li><a class="dropdown-item" href="#">Cylinder Bushing</a></li>
+            <li><a class="dropdown-item" href="#">Coller Bushing</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
-
 <style>
 .arrow .accordion-button:not(.collapsed)::after {
-  /* background-image:{216242_home_icon.svg}; */
-  background-image: url(../../assets/216242_home_icon.svg);
+  background-image: none;
+  /* background-image: url(../../assets/216242_home_icon.svg); */
   transform: rotateZ(360deg);
+}
+#listicon{
+  margin: 0px 25px 0px 0px;
 }
 </style>
