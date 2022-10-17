@@ -1,5 +1,6 @@
 <template>
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <img class="navbar-brand Logo" src='../../assets/DavdaAuto1.png' href=""/>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,9 +22,8 @@
       </form>
     </div>
   </div>
-</nav> -->
+</nav>
 <!--Main Navigation-->
-<div>
 <header>
   <!-- Sidebar -->
   <nav
@@ -114,38 +114,13 @@
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
-              data-mdb-target="#sidebarMenu"
+              data-bs-target="#sidebarMenu"
               aria-controls="sidebarMenu"
               aria-expanded="false"
               aria-label="Toggle navigation"
               >
        open
       </button>
-
-      <!-- Brand -->
-      <!-- <a class="navbar-brand" href="#">
-        <img
-             src="https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.png"
-             height="25"
-             alt=""
-             loading="lazy"
-             />
-      </a> -->
-      <!-- Search form -->
-      <form class="d-none d-md-flex input-group w-auto my-auto">
-        <input
-               autocomplete="off"
-               type="search"
-               class="form-control rounded"
-               placeholder='Search (ctrl + "/" to focus)'
-               style="min-width: 225px"
-               />
-        <span class="input-group-text border-0"
-              ><i class="fas fa-search"></i
-          ></span>
-      </form>
-
-      <!-- Right links -->
       <ul class="navbar-nav ms-auto d-flex flex-row">
         <!-- Notification dropdown -->
         <li class="nav-item dropdown">
@@ -154,7 +129,7 @@
              href="#"
              id="navbarDropdownMenuLink"
              role="button"
-             data-mdb-toggle="dropdown"
+             data-bs-toggle="dropdown"
              aria-expanded="false"
              >
             <i class="fas fa-bell"></i>
@@ -194,7 +169,7 @@
              href="#"
              id="navbarDropdown"
              role="button"
-             data-mdb-toggle="dropdown"
+             data-bs-toggle="dropdown"
              aria-expanded="false"
              >
             <i class="united kingdom flag m-0"></i>
@@ -260,7 +235,7 @@
              href="#"
              id="navbarDropdownMenuLink"
              role="button"
-             data-mdb-toggle="dropdown"
+             data-bs-toggle="dropdown"
              aria-expanded="false"
              >
             <img
