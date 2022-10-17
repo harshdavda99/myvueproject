@@ -1,11 +1,23 @@
 <template>
 <div>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <img class="navbar-brand Logo" src='../../assets/DavdaAuto1.png' href=""/>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <!-- <img class="navbar-brand Logo" src='../../assets/DavdaAuto1.png' href=""/> -->
+    <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> -->
+    <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#sidebarMenu"
+              aria-controls="sidebarMenu"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              >
+              <span class="navbar-toggler-icon"></span>
+      </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
@@ -23,8 +35,6 @@
     </div>
   </div>
 </nav>
-<!--Main Navigation-->
-<header>
   <!-- Sidebar -->
   <nav
        id="sidebarMenu"
@@ -103,162 +113,8 @@
   <!-- Sidebar -->
 
   <!-- Navbar -->
-  <nav
-       id="main-navbar"
-       class="navbar navbar-expand-lg navbar-light bg-white fixed-top"
-       >
-    <!-- Container wrapper -->
-    <div class="container-fluid">
-      <!-- Toggle button -->
-      <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#sidebarMenu"
-              aria-controls="sidebarMenu"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-              >
-       open
-      </button>
-      <ul class="navbar-nav ms-auto d-flex flex-row">
-        <!-- Notification dropdown -->
-        <li class="nav-item dropdown">
-          <a
-             class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow"
-             href="#"
-             id="navbarDropdownMenuLink"
-             role="button"
-             data-bs-toggle="dropdown"
-             aria-expanded="false"
-             >
-            <i class="fas fa-bell"></i>
-            <span class="badge rounded-pill badge-notification bg-danger"
-                  >1</span
-              >
-          </a>
-          <ul
-              class="dropdown-menu dropdown-menu-end"
-              aria-labelledby="navbarDropdownMenuLink"
-              >
-            <li><a class="dropdown-item" href="#">Some news</a></li>
-            <li><a class="dropdown-item" href="#">Another news</a></li>
-            <li>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </li>
-          </ul>
-        </li>
-
-        <!-- Icon -->
-        <li class="nav-item">
-          <a class="nav-link me-3 me-lg-0" href="#">
-            <i class="fas fa-fill-drip"></i>
-          </a>
-        </li>
-        <!-- Icon -->
-        <li class="nav-item me-3 me-lg-0">
-          <a class="nav-link" href="#">
-            <i class="fab fa-github"></i>
-          </a>
-        </li>
-
-        <!-- Icon dropdown -->
-        <li class="nav-item dropdown">
-          <a
-             class="nav-link me-3 me-lg-0 dropdown-toggle hidden-arrow"
-             href="#"
-             id="navbarDropdown"
-             role="button"
-             data-bs-toggle="dropdown"
-             aria-expanded="false"
-             >
-            <i class="united kingdom flag m-0"></i>
-          </a>
-          <ul
-              class="dropdown-menu dropdown-menu-end"
-              aria-labelledby="navbarDropdown"
-              >
-            <li>
-              <a class="dropdown-item" href="#"
-                 ><i class="united kingdom flag"></i>English
-                <i class="fa fa-check text-success ms-2"></i
-                  ></a>
-            </li>
-            <li><hr class="dropdown-divider" /></li>
-            <li>
-              <a class="dropdown-item" href="#"
-                 ><i class="poland flag"></i>Polski</a
-                >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                 ><i class="china flag"></i>中文</a
-                >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                 ><i class="japan flag"></i>日本語</a
-                >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                 ><i class="germany flag"></i>Deutsch</a
-                >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                 ><i class="france flag"></i>Français</a
-                >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                 ><i class="spain flag"></i>Español</a
-                >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                 ><i class="russia flag"></i>Русский</a
-                >
-            </li>
-            <li>
-              <a class="dropdown-item" href="#"
-                 ><i class="portugal flag"></i>Português</a
-                >
-            </li>
-          </ul>
-        </li>
-
-        <!-- Avatar -->
-        <li class="nav-item dropdown">
-          <a
-             class="nav-link dropdown-toggle hidden-arrow d-flex align-items-center"
-             href="#"
-             id="navbarDropdownMenuLink"
-             role="button"
-             data-bs-toggle="dropdown"
-             aria-expanded="false"
-             >
-            <img
-                 src="https://mdbootstrap.com/img/Photos/Avatars/img (31).jpg"
-                 class="rounded-circle"
-                 height="22"
-                 alt=""
-                 loading="lazy"
-                 />
-          </a>
-          <ul
-              class="dropdown-menu dropdown-menu-end"
-              aria-labelledby="navbarDropdownMenuLink"
-              >
-            <li><a class="dropdown-item" href="#">My profile</a></li>
-            <li><a class="dropdown-item" href="#">Settings</a></li>
-            <li><a class="dropdown-item" href="#">Logout</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <!-- Container wrapper -->
-  </nav>
+  
+  
   <!-- Navbar -->
 </header>
 <!--Main Navigation-->
@@ -289,11 +145,11 @@ body {
 /* Sidebar */
 .sidebar {
   position: fixed;
-  top: 0;
+  top: 66px;
   bottom: 0;
   left: 0;
-  padding: 58px 0 0; /* Height of navbar */
-  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+  padding:0; 
+  box-shadow: 0 2px 5px 0 rgba(206, 39, 39, 0.05), 0 2px 10px 0 rgba(202, 191, 191, 0.05);
   width: 240px;
   z-index: 600;
 }
@@ -301,6 +157,10 @@ body {
 @media (max-width: 991.98px) {
   .sidebar {
     width: 100%;
+    position: absolute;
+    top: 56px;
+    bottom: 0;
+    padding: 0
   }
 }
 .sidebar .active {
